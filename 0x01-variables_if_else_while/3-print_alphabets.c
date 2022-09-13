@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTU";
+char alpha[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTU";
 int i;
 for (i = 0; i < 52; i++)
 {
-putchar(alp[i]);
+putchar(alpha[i]);
 }
 putchar('\n');
 return (0);
